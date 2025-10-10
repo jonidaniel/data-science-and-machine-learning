@@ -1,17 +1,21 @@
-# Data Science Scripts
+# Machine Learning
 
-`iris-flower-classifications/`
+`classifications/`
 
-- Different classifications
+- Decision Tree Classifiers, K-Nearest Neighbors Classifiers, etc.
 
-`linear-regression/`
+`data-science-basics/`
 
-- Linear regression models
+- Basic Data Science Functions, Data Distribution and Scatterplot Examples, etc.
 
 `meteorite-landings-data-analysis/`
 
-- Different scripts for my Data Science Project: Meteorite Geospatial Data Visualization
+- Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization](https://www.jonimakinen.com/mywork/meteorites-en.html)
 
 `pytorch/`
 
-- Machine learning models made with PyTorch
+- Machine Learning Models made using PyTorch
+
+`regressions/`
+
+- Linear Regression Models, Multiple Regression Models, Polynomial Regression Models, etc.
