@@ -8,7 +8,7 @@
 
 - Basic Data Science Functions, Data Distribution and Scatterplot Examples, etc.
 
-`meteorite-landings-data-analysis/`
+`meteorite-geospatial-data-visualization/`
 
 - Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization](https://www.jonimakinen.com/mywork/meteorites-en.html)
 
