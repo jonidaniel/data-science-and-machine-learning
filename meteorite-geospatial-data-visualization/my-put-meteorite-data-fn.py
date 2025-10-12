@@ -1,23 +1,3 @@
-# https://dev.to/slotbite/installing-python-dependencies-on-aws-lambda-using-efs-1n25
-# https://medium.com/picus-security-engineering/exploring-the-power-of-aws-efs-with-lambda-cc1e35f35c8a
-# https://aws.amazon.com/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/
-# https://safezone.im/how-to-use-efs-to-store-cx_oracle-pandas-and-other-python-packages/
-
-# https://docs.aws.amazon.com/efs/latest/ug/efs-mount-helper.html
-# https://docs.aws.amazon.com/efs/latest/ug/installing-amazon-efs-utils.html#installing-efs-utils-amzn-linux
-
-# https://repost.aws/knowledge-center/efs-access-point-configurations
-
-# https://stackoverflow.com/questions/29857396/file-permission-meanings
-
-# https://www.youtube.com/watch?v=FA153BGOV_A&t=174s
-
-# https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-internet.html
-
-# https://www.youtube.com/watch?v=vANJzXzh6cU
-
-# https://docs.aws.amazon.com/lambda/latest/dg/configuration-timeout.html#configuration-timeout-console
-
 import sys
 # Look for Python packages from EFS mount path
 sys.path.append("/mnt/data/my-venv/lib64/python3.9/site-packages/")
