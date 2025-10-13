@@ -1,12 +1,12 @@
-# Regressions
+# PyTorch
 
-Linear Regression Models, Multiple Regression Models, Polynomial Regression Models, etc.
+Machine learning models made with PyTorch.
 
 ## Setup
 
 You can download this project to your local machine by giving this command via your command line tools:
 
-`git clone https://github.com/jonidaniel/machine-learning/tree/main/regressions`
+`git clone https://github.com/jonidaniel/machine-learning/tree/main/pytorch`
 
 and then run the notebooks you desire.
 

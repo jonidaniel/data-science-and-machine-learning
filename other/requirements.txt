@@ -1,5 +1,9 @@
+ipykernel
 numpy
+palettable
 pandas
+pyarrow
 geopandas
 matplotlib
 lonboard
+sidecar

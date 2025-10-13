@@ -8,7 +8,7 @@ You can download this project to your local machine by giving this command via y
 
 `git clone https://github.com/jonidaniel/machine-learning/tree/main/classifications`
 
-And then running the notebooks in order (1, 2, 3).
+and then run the notebooks in order (1, 2, 3).
 
 ## Author
 
