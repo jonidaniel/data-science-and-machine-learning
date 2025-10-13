@@ -1,6 +1,6 @@
 # Other Examples
 
-Other examples (Lonboard, etc.)
+Other data science examples (Lonboard, etc.)
 
 ## Setup
 
