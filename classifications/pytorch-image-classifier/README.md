@@ -2,9 +2,9 @@
 
 A playing card classifier model made with PyTorch.
 
-## Setup and testing
+## Setup and Testing
 
-**On Mac:**
+**On macOS:**
 
 1. First, make sure that you have `python3` and `pip3` installed.
 

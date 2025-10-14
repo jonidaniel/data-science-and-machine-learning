@@ -8,9 +8,9 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 `my-put-meteorite-data-fn.py` is a Python script that lives in AWS Lambda. It fetches meteorite data from NASA website.
 
-## Setup and testing
+## Setup and Testing
 
-**On Mac:**
+**On macOS:**
 
 1. First, make sure that you have `python3` and `pip3` installed.
 

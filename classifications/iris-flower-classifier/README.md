@@ -2,9 +2,9 @@
 
 An iris flower classifier implemented with two different algorithms: decision tree and k-nearest neighbors. Provides a solution to the famous iris flower classification problem.
 
-## Setup and testing
+## Setup and Testing
 
-**On Mac:**
+**On macOS:**
 
 1. First, make sure that you have `python3` and `pip3` installed.
 

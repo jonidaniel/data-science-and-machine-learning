@@ -2,9 +2,9 @@
 
 Different solutions to linear regression, multiple regression, and polynomial regression problems.
 
-## Setup and testing
+## Setup and Testing
 
-**On Mac:**
+**On macOS:**
 
 1. First, make sure that you have `python3` and `pip3` installed.
 

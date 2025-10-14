@@ -2,9 +2,9 @@
 
 Demonstrations on basic data science functions, data distribution and scatterplot.
 
-## Setup and testing
+## Setup and Testing
 
-**On Mac:**
+**On macOS:**
 
 1. First, make sure that you have `python3` and `pip3` installed.
 
@@ -16,11 +16,11 @@ Demonstrations on basic data science functions, data distribution and scatterplo
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, and `scipy` packages to the project.
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt` This will install `ipykernel`, `matplotlib`, `numpy`, and `scipy` packages to the project.
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `basic-data-science-functions.ipynb` or `data-distribution-and-scatterplot.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Run the cells on `/basic-data-science-functions.ipynb` or `/data-distribution-and-scatterplot.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 
