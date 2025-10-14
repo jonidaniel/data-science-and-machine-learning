@@ -18,7 +18,7 @@ Basic Data Science Functions, Data Distribution and Scatterplot Examples, etc.
 
 6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, and `scipy` packages to the project.
 
-7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
+7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
 8. Run the cells on `basic-data-science-functions.ipynb` or `data-distribution-and-scatterplot.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 

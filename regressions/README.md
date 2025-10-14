@@ -18,7 +18,7 @@ Linear Regression Models, Multiple Regression Models, Polynomial Regression Mode
 
 6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `scikit-learn`, `scipy` and `seaborn` packages to the project.
 
-7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
+7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
 8. Run the cells on `linear-regression-salary.ipynb`, `linear-regression.ipynb`, `linear-regression3.ipynb`, `multiple-regression.ipynb`, or `polynomial-regression.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
