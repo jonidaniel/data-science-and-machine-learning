@@ -8,13 +8,15 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 `/my-put-meteorite-data-fn.py` is a Python script that lives in AWS Lambda. It fetches meteorite data from NASA website.
 
-## Setup
+## Setup and testing
 
-You can download this project to your local machine by giving this command via your command line tools:
+1. First, make sure that you have `python3` and `pip3` installed.
 
-`git clone https://github.com/jonidaniel/machine-learning/tree/main/meteorite-geospatial-data-visualization`
+2. Then, download this project to your local machine by giving this command via your command line tools: `git clone https://github.com/jonidaniel/machine-learning/tree/main/meteorite-geospatial-data-visualization`
 
-and then run the files you desire.
+3. Navigate to the project directory and install all needed Python dependencies with `pip3 install -r requirements.txt`
+
+4. Open `/` in your IDE and run it.
 
 ## Author
 

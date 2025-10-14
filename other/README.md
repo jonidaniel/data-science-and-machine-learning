@@ -2,13 +2,15 @@
 
 Other data science examples (Lonboard, etc.)
 
-## Setup
+## Setup and testing
 
-You can download this project to your local machine by giving this command via your command line tools:
+1. First, make sure that you have `python3` and `pip3` installed.
 
-`git clone https://github.com/jonidaniel/machine-learning/tree/main/other`
+2. Then, download this project to your local machine by giving this command via your command line tools: `git clone https://github.com/jonidaniel/machine-learning/tree/main/other`
 
-and then run the notebooks you desire.
+3. Navigate to the project directory and install all needed Python dependencies with `pip3 install -r requirements.txt`
+
+4. Open `/` in your IDE and run it.
 
 ## Author
 
