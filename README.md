@@ -1,21 +1,27 @@
 # Data Science and Machine Learning
 
-`classifications/`
-
-- Decision Tree Classifiers, K-Nearest Neighbors Classifiers, etc.
+**Repository contents:**
 
 `data-science-basics/`
 
-- Basic Data Science Functions, Data Distribution and Scatterplot Examples, etc.
+- Demonstrations on basic data science functions, data distribution and scatterplot.
 
-`meteorite-geospatial-data-visualization/`
+`classifications/`
 
-- Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization](https://www.jonimakinen.com/mywork/meteorites-en.html)
-
-`pytorch/`
-
-- Machine Learning Models made using PyTorch
+- Decision tree classifiers, k-nearest neighbors classifiers, PyTorch image classifiers, etc.
 
 `regressions/`
 
-- Linear Regression Models, Multiple Regression Models, Polynomial Regression Models, etc.
+- Different solutions to linear regression, polynomial regression, and multiple regression problems.
+
+`meteorite-geospatial-data-visualization/`
+
+- Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html)
+
+`other-examples/`
+
+- Other data science/machine learning examples (Lonboard, etc.)
+
+## Author
+
+Fall 2025, [@jonidaniel](https://github.com/jonidaniel)
