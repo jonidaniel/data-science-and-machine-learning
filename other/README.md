@@ -16,7 +16,7 @@ Other data science examples (Lonboard, etc.)
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This command will install `ipykernel`, `numpy`, `palettable`, `pandas`, `pyarrow`, `geopandas`, `matplotlib`, `lonboard` and `sidecar` packages to the project.
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `numpy`, `palettable`, `pandas`, `pyarrow`, `geopandas`, `matplotlib`, `lonboard` and `sidecar` packages to the project.
 
 7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
 

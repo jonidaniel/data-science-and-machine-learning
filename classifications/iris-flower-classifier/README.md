@@ -8,7 +8,7 @@ An iris flower classifier implemented with two different algorithms: decision tr
 
 1. First, make sure that you have `python3` and `pip3` installed.
 
-2. Then, download the repository to your local machine by giving this command via your command line tools: `git clone https://github.com/jonidaniel/data-science-and-machine-learning`
+2. Then, download the repository to your local machine by commanding in your command line tools: `git clone https://github.com/jonidaniel/data-science-and-machine-learning`
 
 3. Navigate to the project directory with `cd data-science-and-machine-learning/classifications/iris-flower-classifier`
 
@@ -16,7 +16,7 @@ An iris flower classifier implemented with two different algorithms: decision tr
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This command will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `seaborn`, and `scikit-learn` packages to the project.
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `seaborn`, and `scikit-learn` packages to the project.
 
 7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
 
