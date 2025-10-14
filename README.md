@@ -4,7 +4,7 @@
 
 `data-science-basics/`
 
-- Demonstrations on basic data science functions, data distribution and scatterplot.<br>
+- Demonstrations on basic data science functions, data distribution and scatterplot.<br><br><br><br>
 
 `classifications/`
 
