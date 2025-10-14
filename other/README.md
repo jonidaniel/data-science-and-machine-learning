@@ -16,9 +16,11 @@ Other data science examples (Lonboard, etc.)
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This command will install `ipykernel`, `numpy`, `palettable`, `pandas`, `pyarrow`, `geopandas`, `matplotlib`, `lonboard` and `sidecar` packages to the project.
 
-7. Open `/` in your IDE and run it.
+7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
+
+8. Run the cells on `lonboard-example.ipynb` or `lonboard-scatterplot-layer-example.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 

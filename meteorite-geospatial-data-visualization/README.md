@@ -22,9 +22,11 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This command will install `folium`, `geopandas`, `ipykernel`, `ipywidgets`, `leafmap`, `matplotlib`, `mapclassify`, `openpyxl`, and `pandas` packages to the project.
 
-7. Open `/` in your IDE and run it.
+7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
+
+8. Run the cells on `create-meteorite-shapefiles.ipynb`, `create-meteorite-spreadsheets.py`, `leafmap-meteorite-locations-demonstration.ipynb`, or `my-put-meteorite-data-fn.py`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 

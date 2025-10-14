@@ -16,11 +16,13 @@ An iris flower classifier implemented with two different algorithms: decision tr
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This command will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `seaborn`, and `scikit-learn` packages to the project.
 
-7. Open `/iris-flower1-data-analysis-and-exploration.ipynb` in your IDE and run it to form a data frame.
+7. Open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended) with `code .` (different commands apply for different IDEs).
 
-8. And finally in your IDE, open and run whichever algorithm you choose, `/iris-flower2-decision-tree-classifier.ipynb` or `iris-flower3-knn-classifier.ipynb`
+8. Run the cells on `iris-flower1-data-analysis-and-exploration.ipynb` to form a data frame. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+
+9. And finally, run the cells on whichever algorithm you choose, `iris-flower2-decision-tree-classifier.ipynb` or `iris-flower3-knn-classifier.ipynb`
 
 ## Author
 
