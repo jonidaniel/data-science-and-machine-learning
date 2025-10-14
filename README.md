@@ -1,6 +1,6 @@
 # Data Science and Machine Learning
 
-**Repository contents:**<br>
+**Repository contents:**<br><br>
 
 `data-science-basics/`
 
@@ -8,15 +8,15 @@
 
 `classifications/`
 
-- Decision tree classifiers, k-nearest neighbors classifiers, PyTorch image classifiers, etc.<br>
+- Decision tree classifiers, k-nearest neighbors classifiers, PyTorch image classifiers, etc.<br><br>
 
 `regressions/`
 
-- Different solutions to linear regression, polynomial regression, and multiple regression problems.<br>
+- Different solutions to linear regression, polynomial regression, and multiple regression problems.<br><br>
 
 `meteorite-geospatial-data-visualization/`
 
-- Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html)<br>
+- Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html)<br><br>
 
 `other-examples/`
 
