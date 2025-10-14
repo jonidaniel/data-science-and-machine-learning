@@ -10,11 +10,11 @@ Linear Regression Models, Multiple Regression Models, Polynomial Regression Mode
 
 2. Then, download the repository to your local machine by commanding `git clone https://github.com/jonidaniel/data-science-and-machine-learning` in your command line tools.
 
-3. Navigate to the project directory with `cd data-science-and-machine-learning/regressions`.
+3. Navigate to the project directory with `cd data-science-and-machine-learning/regressions`
 
-4. Create a [Python virtual environment (venv)](https://docs.python.org/3/library/venv.html) for the project's Python dependencies with `python3 -m venv <your_venv_name>`.
+4. Create a [Python virtual environment (venv)](https://docs.python.org/3/library/venv.html) for the project's Python dependencies with `python3 -m venv <your_venv_name>`
 
-5. Activate the newly created venv with `source <your_venv_name>/bin/activate`.
+5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
 6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `scikit-learn`, `scipy` and `seaborn` packages to the project.
 
