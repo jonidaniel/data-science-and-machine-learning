@@ -1,12 +1,6 @@
 # Meteorite Geospatial Data Visualization
 
-Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization](https://www.jonimakinen.com/mywork/meteorites-en.html)
-
-`create-meteorite-spreadsheets.py` is a file for creating various spreadsheets from NASA meteorite data.
-
-`leafmap-meteorite-locations-demonstration.ipynb` is a demo on visualizing geospatial data with Leafmap.
-
-`my-put-meteorite-data-fn.py` is a Python script that lives in AWS Lambda. It fetches meteorite data from NASA website.
+Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html)
 
 ## Setup and Testing
 
@@ -22,11 +16,11 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `folium`, `geopandas`, `ipykernel`, `ipywidgets`, `leafmap`, `matplotlib`, `mapclassify`, `openpyxl`, and `pandas` packages to the project.
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt` This will install `folium`, `geopandas`, `ipykernel`, `ipywidgets`, `leafmap`, `matplotlib`, `mapclassify`, `openpyxl`, and `pandas` packages to the project.
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `create-meteorite-shapefiles.ipynb`, `create-meteorite-spreadsheets.py`, `leafmap-meteorite-locations-demonstration.ipynb`, or `my-put-meteorite-data-fn.py`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Run the cells on `create-meteorite-spreadsheets.ipynb`, `create-meteorite-shapefiles.py`, `leafmap-meteorite-locations-demonstration.ipynb`, or `my-put-meteorite-data-fn.py` You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 

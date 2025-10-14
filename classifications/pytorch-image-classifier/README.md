@@ -16,11 +16,11 @@ A playing card classifier model made with PyTorch.
 
 5. Activate the newly created venv with `source <your_venv_name>/bin/activate`
 
-6. Install all needed Python dependencies with `pip3 install -r requirements.txt`. This will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `timm`, `torch` and `torchvision` packages to the project.
+6. Install all needed Python dependencies with `pip3 install -r requirements.txt` This will install `ipykernel`, `matplotlib`, `numpy`, `pandas`, `timm`, `torch` and `torchvision` packages to the project.
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `card-classifier.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Run the cells on `playing-card-classifier.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 
