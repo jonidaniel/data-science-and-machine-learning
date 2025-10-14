@@ -6,7 +6,7 @@ Other data science/machine learning examples (Lonboard, etc.)
 
 **On macOS:**
 
-1. First, make sure that you have `python3` and `pip3` installed.
+1. First, make sure that you have `git`, `python3` and `pip3` installed.
 
 2. Then, download the repository to your local machine by commanding `git clone https://github.com/jonidaniel/data-science-and-machine-learning` in your command line tools.
 
