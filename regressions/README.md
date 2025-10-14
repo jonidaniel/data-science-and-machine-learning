@@ -1,6 +1,6 @@
 # Regressions
 
-Linear Regression Models, Multiple Regression Models, Polynomial Regression Models, etc.
+Different solutions to linear regression, multiple regression, and polynomial regression problems.
 
 ## Setup and testing
 

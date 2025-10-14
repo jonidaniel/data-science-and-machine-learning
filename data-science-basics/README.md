@@ -1,6 +1,6 @@
 # Data Science Basics
 
-Basic Data Science Functions, Data Distribution and Scatterplot Examples, etc.
+Demonstrations on basic data science functions, data distribution and scatterplot.
 
 ## Setup and testing
 

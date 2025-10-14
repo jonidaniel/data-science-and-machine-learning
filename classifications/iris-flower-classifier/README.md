@@ -1,6 +1,6 @@
 # Iris Flower Classifier
 
-An iris flower classifier implemented with two different algorithms: decision tree and k-nearest neighbors.
+An iris flower classifier implemented with two different algorithms: decision tree and k-nearest neighbors. Provides a solution to the famous iris flower classification problem.
 
 ## Setup and testing
 
