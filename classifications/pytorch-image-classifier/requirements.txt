@@ -1,0 +1,8 @@
+ipykernel
+# ipywidgets
+matplotlib
+numpy
+pandas
+timm
+torch
+torchvision
