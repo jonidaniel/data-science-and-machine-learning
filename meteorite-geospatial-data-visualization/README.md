@@ -1,6 +1,6 @@
 # Meteorite Geospatial Data Visualization
 
-Various scripts supporting my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html) Uses `/assets/meteorite-data-nasa.csv` as the main input to form, e.g., Shapefiles and visualizations.
+Various scripts supporting my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html) Uses NASA meteorite data as a source to form spreadsheets, Shapefiles and visualizations.
 
 ## Setup and Testing
 
@@ -24,15 +24,15 @@ Various scripts supporting my [Data Science Project: Meteorite Geospatial Data V
 
    - `create-meteorite-spreadsheets.ipynb`
 
-     For creating spreadsheets from the meteorite data. Creates 3 different spreadsheets (`meteorite-locations.xlsx`, `meteorite-quality-probability-based-on-mass.xlsx`, `meteorites-by-year.xlsx`) into `/spreadsheets`, which can then be used to, e.g., form Power BI dashboards.
+     For creating spreadsheets from NASA meteorite data. Creates `./spreadsheets/meteorite-locations.xlsx` and `./spreadsheets/meteorites-by-year.xlsx`, which can then be used to form Power BI dashboards.
 
    - `create-meteorite-shapefiles.py`
 
-     For creating Shapefiles from the meteorite data. Creates 4 files `meteorites.cpg`, `meteorites.dbf`, `meteorites.shp`, `meteorites.shx` into `/shapefiles`, then compresses them into an archive, which, in this case, is considered the final Shapefile. The Shapefile can then be uploaded used in, e.g., forming geospatial data visualizations.
+     For creating Shapefiles from NASA meteorite data. Creates 4 files `meteorites.cpg`, `meteorites.dbf`, `meteorites.shp`, `meteorites.shx` into `./shapefiles`, then compresses them into `meteorites.zip`. The Archive can then be used to form geospatial data visualizations.
 
    - `leafmap-meteorite-locations-demonstration.ipynb`
 
-     A Leafmap geospatial data visualization demonstration. Takes the spreadsheet from `/spreadsheets/meteorite-locations.xlsx` and uses the meteorite locations when drawing a Leafmap.
+     A [Leafmap](https://leafmap.org/) geospatial data visualization demonstration. Takes `./spreadsheets/meteorite-locations.xlsx` and uses the meteorite locations to draw a Leafmap.
 
    - `my-put-meteorite-data-fn.py`
 
