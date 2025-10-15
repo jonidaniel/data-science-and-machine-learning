@@ -20,7 +20,15 @@ Other data science/machine learning examples (Lonboard, etc.)
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `lonboard-example.ipynb` or `lonboard-scatterplot-layer-example.ipynb` You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on whichever notebook(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+
+   - `lonboard-example.ipynb`
+
+     asd
+
+   - `lonboard-scatterplot-layer-example.ipynb`
+
+     asd
 
 ## Author
 

@@ -20,7 +20,27 @@ Different solutions to linear regression, polynomial regression, and multiple re
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `linear-regression.ipynb`, `linear-regression-salary.ipynb`, `linear-regression3.ipynb`, `polynomial-regression.ipynb`, or `multiple-regression.ipynb` You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on whichever notebooks(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+
+   - `linear-regression.ipynb`
+
+     asd
+
+   - `linear-regression-salary.ipynb`
+
+     asd
+
+   - `linear-regression3.ipynb`
+
+     asd
+
+   - `polynomial-regression.ipynb`
+
+     asd
+
+   - `multiple-regression.ipynb`
+
+     asd
 
 ## Author
 

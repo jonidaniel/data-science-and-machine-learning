@@ -22,7 +22,15 @@ A classifier implemented with two different algorithms: decision tree and k-near
 
 8. Run the cells on `01-data-analysis-and-exploration.ipynb` to form a data frame. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
-9. And finally, run the cells on whichever algorithm you choose, `02-decision-tree-classifier.ipynb` or `03-knn-classifier.ipynb`
+9. And finally, run the cells on whichever algorithm you choose.
+
+   - `02-decision-tree-classifier.ipynb`
+
+     asd
+
+   - `03-knn-classifier.ipynb`
+
+     asd
 
 ## Author
 

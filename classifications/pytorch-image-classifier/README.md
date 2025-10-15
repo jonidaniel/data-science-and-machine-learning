@@ -20,7 +20,7 @@ A playing card classifier model made with PyTorch.
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `playing-card-classifier.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on `playing-card-classifier.ipynb`. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
 ## Author
 

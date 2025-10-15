@@ -20,7 +20,15 @@ Demonstrations on basic data science functions, data distribution and scatterplo
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `basic-data-science-functions.ipynb` or `data-distribution-and-scatterplot.ipynb` You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on whichever notebook(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+
+   - `basic-data-science-functions.ipynb`
+
+     asd
+
+   - `data-distribution-and-scatterplot.ipynb`
+
+     asd
 
 ## Author
 
