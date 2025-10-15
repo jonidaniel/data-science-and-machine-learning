@@ -24,7 +24,7 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
    - `create-meteorite-spreadsheets.ipynb`
 
-   asd
+     asd
 
    - `create-meteorite-shapefiles.py`
 
