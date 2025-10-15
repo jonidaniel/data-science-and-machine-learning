@@ -26,11 +26,11 @@ A classifier implemented with two different algorithms: decision tree and k-near
 
    - `02-decision-tree-classifier.ipynb`
 
-     asd
+     Train and test a decision tree classifier on the iris flower dataset. Fine-tune the classifier by trying out different hyperparameters with randomized search and grid search.
 
    - `03-knn-classifier.ipynb`
 
-     asd
+     Train and test a k-nearest neighbors classifier on the iris flower dataset. Fine-tune the classifier by trying out different hyperparameters with randomized search and grid search.
 
 ## Author
 
