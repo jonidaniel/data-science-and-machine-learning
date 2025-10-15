@@ -20,15 +20,23 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Run the cells on `create-meteorite-spreadsheets.ipynb`, `create-meteorite-shapefiles.py`, `leafmap-meteorite-locations-demonstration.ipynb`, or `my-put-meteorite-data-fn.py` You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on whichever notebook you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
    - `create-meteorite-spreadsheets.ipynb`
 
+   asd
+
    - `create-meteorite-shapefiles.py`
+
+   asd
 
    - `leafmap-meteorite-locations-demonstration.ipynb`
 
+   asd
+
    - `my-put-meteorite-data-fn.py`
+
+   asd
 
 ## Author
 
