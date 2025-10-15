@@ -20,23 +20,23 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
 7. Run `code .` to open the whole project in [Visual Studio Code](https://code.visualstudio.com/) (recommended; different commands apply for different IDEs).
 
-8. Finally, run the cells on whichever notebook you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
+8. Finally, run the cells on whichever notebook(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
    - `create-meteorite-spreadsheets.ipynb`
 
-     asd
+     For creating spreadsheets from the meteorite data. Creates 3 different spreadsheets (`meteorite-locations.xlsx`, `meteorite-quality-probability-based-on-mass.xlsx`, `meteorites-by-year.xlsx`) into `/spreadsheets`, which can then be used to, e.g., form Power BI dashboards.
 
    - `create-meteorite-shapefiles.py`
 
-   asd
+     For creating Shapefiles from the meteorite data. Creates 4 different parts of a Shapefile (`.cpg`, `.dbf`, `.shp`, `.shx`) into `/shapefiles`, then compresses them into an archive, which is considered the final Shapefile. The Shapefile can then be used in, e.g., forming geospatial data visualizations.
 
    - `leafmap-meteorite-locations-demonstration.ipynb`
 
-   asd
+     A Leafmap geospatial data visualization demonstration. Takes the spreadsheet from `/spreadsheets/meteorite-locations.xlsx` and uses the meteorite locations when drawing a Leafmap.
 
    - `my-put-meteorite-data-fn.py`
 
-   asd
+     This script is originally situated in my AWS environment as a Lambda function, and it doesn't work here as a standalone executable. Over at AWS it functions as the first phase of the backend process of my [Data Science Project: Geospatial Meteorite Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-fi.html)
 
 ## Author
 
