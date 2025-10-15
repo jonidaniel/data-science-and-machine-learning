@@ -1,6 +1,6 @@
 # Meteorite Geospatial Data Visualization
 
-Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html)
+Various scripts supporting my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html) Uses `/assets/meteorite-data-nasa.csv` as the main input to form, e.g., Shapefiles and visualizations.
 
 ## Setup and Testing
 
@@ -36,7 +36,7 @@ Various scripts for my [Data Science Project: Meteorite Geospatial Data Visualiz
 
    - `my-put-meteorite-data-fn.py`
 
-     This script is originally situated in my AWS environment as a Lambda function, and it doesn't work here as a standalone executable. Over at AWS it functions as the first phase of the backend process of my [Data Science Project: Geospatial Meteorite Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-fi.html)
+     This script is originally situated in [my AWS environment](https://github.com/jonidaniel/my-aws-environment) as a Lambda function, so it doesn't work here as a standalone executable. Over at AWS it acts as the first phase of the backend process of my [Data Science Project: Geospatial Meteorite Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-fi.html)
 
 ## Author
 
