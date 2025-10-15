@@ -1,6 +1,6 @@
 # Meteorite Geospatial Data Visualization
 
-Various scripts supporting my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html) Uses NASA meteorite data as a source to form spreadsheets, Shapefiles and visualizations.
+Various scripts supporting my [Data Science Project: Meteorite Geospatial Data Visualization.](https://www.jonimakinen.com/mywork/meteorites-en.html) Uses [NASA meteorite data](https://data.nasa.gov/dataset/meteorite-landings) as a source to form spreadsheets, Shapefiles and visualizations.
 
 ## Setup and Testing
 
