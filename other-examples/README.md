@@ -22,13 +22,13 @@ Other data science/machine learning examples (Lonboard, etc.)
 
 8. Finally, run the cells on whichever notebook(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
-   - `lonboard-example.ipynb`
-
-     asd
-
    - `lonboard-scatterplot-layer-example.ipynb`
 
-     asd
+     For demonstrating Lonboard's ScatterplotLayer. Draws meteorite locations on a lonboard Map.
+
+   - `lonboard-scatterplot-layer-with-sidecar-example.ipynb`
+
+     For demonstrating Lonboard's ScatterplotLayer with Sidecar. Draws internet speed data points on a lonboard Map.
 
 ## Author
 
