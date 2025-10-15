@@ -22,25 +22,25 @@ Different solutions to linear regression, polynomial regression, and multiple re
 
 8. Finally, run the cells on whichever notebooks(s) you like. You must have a [Jupyter Notebook](https://jupyter.org/) extension installed and your venv selected as the Python kernel.
 
-   - `linear-regression.ipynb`
+   - `linear-regression-diabetes.ipynb`
 
-     asd
+     A linear regression model on diabetes.
 
    - `linear-regression-salary.ipynb`
 
-     asd
+     A linear regression model on salary development.
 
-   - `linear-regression3.ipynb`
+   - `linear-regression-random-numbers.ipynb`
 
-     asd
+     A linear regression model on random numbers.
 
    - `polynomial-regression.ipynb`
 
-     asd
+     A polynomial regression model on random numbers.
 
    - `multiple-regression.ipynb`
 
-     asd
+     A multiple regression model on car emissions.
 
 ## Author
 
