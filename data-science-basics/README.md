@@ -24,11 +24,11 @@ Demonstrations on basic data science functions, data distribution and scatterplo
 
    - `basic-data-science-functions.ipynb`
 
-     asd
+     For demonstrating basic data science/machine learning functions (mean, median, mode, etc.)
 
    - `data-distribution-and-scatterplot.ipynb`
 
-     asd
+     For demonstrating uniform data distribution, normal data distribution, and scatterplot.
 
 ## Author
 
