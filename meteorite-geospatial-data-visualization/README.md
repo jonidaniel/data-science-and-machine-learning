@@ -28,7 +28,7 @@ Various scripts supporting my [Data Science Project: Meteorite Geospatial Data V
 
    - `create-meteorite-shapefiles.py`
 
-     For creating Shapefiles from the meteorite data. Creates 4 different parts of a Shapefile (`.cpg`, `.dbf`, `.shp`, `.shx`) into `/shapefiles`, then compresses them into an archive, which is considered the final Shapefile. The Shapefile can then be used in, e.g., forming geospatial data visualizations.
+     For creating Shapefiles from the meteorite data. Creates 4 files `meteorites.cpg`, `meteorites.dbf`, `meteorites.shp`, `meteorites.shx` into `/shapefiles`, then compresses them into an archive, which, in this case, is considered the final Shapefile. The Shapefile can then be uploaded used in, e.g., forming geospatial data visualizations.
 
    - `leafmap-meteorite-locations-demonstration.ipynb`
 
