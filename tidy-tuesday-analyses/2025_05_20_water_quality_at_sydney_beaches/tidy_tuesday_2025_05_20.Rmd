@@ -1,0 +1,205 @@
+---
+title: "Water Quality at Sydney Beaches – Tidy Tuesday 2025/05/20"
+author: "Joni Mäkinen"
+date: "2025-10-26"
+output: html_document
+---
+
+---
+
+# Data analysis on Sydney's beaches' water qualities. Inspired by [Tidy Tuesday's publication from May 20, 2025.](https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-05-20)<br><br>
+
+#### [Beachwatch's water quality data](https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData) will be used as base data for this analysis.
+
+#### The data contains water quality measurement results from 79 different beaches in Sydney area since 1991 until present day. There are over 123 thousand data points in total.<br><br>
+
+#### After exploring the data, I decided to focus on two distinct relationships:
+
+* by *comparing water qualities of all Sydney's beaches* (**part 1**)
+* by *inspecting combined water quality of all Sydney's beaches by year* (**part 2**)
+
+#### Separate bar plots will be drawn for both relationships:
+
+* *Water Qualities by Beach in Sydney (1991–present)*
+* *Combined Water Quality at Sydney Beaches (1991–present)*<br><br>
+
+#### The goal is to produce two descriptive charts, from where one can easily identify the beaches with the lowest and highest water qualities, and also see the overall Sydney water quality trends over time.
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Install packages
+
+```{r}
+# Install packages if required
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("ggthemes")) install.packages("ggthemes")
+if (!require("tidytuesdayR")) install.packages("tidytuesdayR")
+```
+
+### Import packages and load data
+
+```{r}
+# Import packages
+library(ggplot2)
+library(dplyr)
+library(ggthemes)
+
+# Load Water Quality at Sydney Beaches data from Tidy Tuesday (orig. Beachwatch)
+tuesdata <- tidytuesdayR::tt_load("2025-05-20")
+```
+
+---
+
+## Part 1: Compare water qualities of all Sydney's beaches
+
+### First, wrangle the data
+
+```{r}
+# Set tuesdata tibbles (data frames) to variables
+water_quality <- tuesdata$water_quality
+weather <- tuesdata$weather
+
+# Initiate two vectors where mean bacteria concentrations by beach and observations count by beach will be gathered
+means <- c()
+counts <- c()
+
+# Gather all 79 beaches in a variable
+beaches <- unique(water_quality$swim_site)
+# Iterate through all beaches
+for (beach in beaches) {
+  # Gather all observations (rows) of the current beach
+  observations <- water_quality[water_quality$swim_site == beach,]
+  # Calculate mean bacteria concentration for the current beach (omit NA values)
+  enterococci_cfu_100ml_mean <- mean(observations$enterococci_cfu_100ml, na.rm = TRUE)
+  # Append the mean bacteria concentration and observations count to respective vectors
+  counts <- c(counts, count(observations))
+  means <- c(means, enterococci_cfu_100ml_mean)
+}
+
+# Use a helper vector to gather observations counts again in proper form
+helper <- c()
+for (i in counts) {
+  helper <- c(helper, i)
+}
+
+# Form a data frame from beach names, mean bacteria concentrations, and observations counts
+df <- data.frame(beach = beaches,
+                concentration = means,
+                count = helper)
+
+# Order the data frame by concentration column
+df <- arrange(df, desc(concentration))
+# Mutate the concentration column (from chr to fct)
+df <- mutate(df, beach = factor(beach, levels = beach))
+```
+
+### Then, plot it as a bar chart
+
+```{r, fig.width=10, fig.height=7}
+# Plot a bar chart
+df %>%
+  ggplot(aes(x = beach, y = concentration)) +
+  geom_bar(stat = "identity") +
+  # Add measurement counts to bars' tips
+  #geom_text(aes(label = helper), angle = 90, hjust = 0.5, vjust = 0.5) +
+  # Use a theme from ggthemes
+  theme_fivethirtyeight() +
+  # The previous theme disables axis titles, restore them
+  theme(axis.title = element_text()) +
+  # Set x axis texts as vertical
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  # Set labels
+  labs(title = "Water Quality by Beach in Sydney (1991–present)",
+       subtitle = "Mean bacteria concentration for each beach",
+       x = "Location",
+       y = "Mean enterococci concentration (CFU/100 ml)")
+```
+
+---
+
+## Part 2: Inspect combined water quality of all Sydney's beaches by year
+
+### First, wrangle the data
+
+```{r}
+# Create a data frame out of date column
+dates <- data.frame(date = water_quality$date,
+                      concentration = water_quality$enterococci_cfu_100ml)
+
+# Initiate a vector where mean bacteria concentrations will be gathered
+mean_concentration <- c()
+
+# A vector representing every year of measurements
+years <- c("1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999",
+         "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009",
+         "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019",
+         "2020", "2021", "2022", "2023", "2024", "2025")
+counts2 <- c()
+date_as_chr <- as.character(water_quality$date)
+View(date_as_chr)
+luku <- startsWith(date_as_chr, "2025")
+View(luku)
+
+# Iterate 35 times (for every year)
+for (year in years) {
+  # Gather all observations (rows) of the current year
+  #observations <- water_quality[water_quality$date.startsWith(water_quality$date, year),]
+  observations <- water_quality[water_quality$date.startsWith(water_quality$date, year),]
+  # Append the observations count to a vector
+  counts2 <- c(counts2, count(observations))
+  # Gather all dates of the current year
+  current_year <- dates %>%
+    filter(between(date, as.Date(paste0(year, "-01-01")), as.Date(paste0(year, "-12-31"))))
+  # Calculate mean bacteria concentration for the current year
+  mean <- mean(current_year$concentration, na.rm = TRUE)
+  # Append it to mean_concentration
+  mean_concentration <- c(mean_concentration, mean)
+}
+
+# Form a data frame for mean bacteria concentrations
+means <- data.frame(year = years,
+                      mean_concentration = mean_concentration)
+```
+
+### Then, plot it as a bar chart
+
+```{r, fig.width=10}
+# Plot a bar chart
+means %>%
+  ggplot(aes(x = year, y = mean_concentration)) +
+  geom_bar(stat = "identity") +
+  # Add measurement counts to bars' tips
+  #geom_text(aes(label = ), angle = 90, hjust = 0.5, vjust = 0.5) +
+  # Use a theme from ggthemes
+  theme_fivethirtyeight() +
+  # The previous theme disables axis titles, restore them
+  theme(axis.title = element_text()) +
+  # Set x axis texts as vertical
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  # Set labels
+  labs(title = "Combined Water Quality at Sydney Beaches (1991–present)", subtitle = "Smoothed mean bacteria concentration, all beaches included", x = "Date", y = "Mean enterococci concentration (CFU/100 ml)")
+```
+
+---
+
+## Results and takeaways
+
+#### Descriptive charts were successfully produced in both parts of the analysis.<br><br>
+
+#### Part 1:
+
+##### From the first chart, we can easily identify the beaches with the lowest water quality (*Tambourine Bay, Woolwich Baths, Woodford Bay*) and the highest water quality (*Whale Beach, Turimetta Beach, Avalon Beach*) for the measurement period. The results are valid and reliable since the data point counts were fairly high, between 51–2508 for each of the beaches.
+
+#### Part 2:
+
+##### The latter chart fulfills its purpose also as it clearly demonstrates the trends on Sydney's overall water quality over the decades. Throughout the measurement history, the mean enterococci concentrations have stayed at around 25–150 CFU/100 ml, with few exceptions in the late 1990's when it was higher – the most eye-catching value being the huge spike in 1998, when the value was over 1100 CFU/100 ml. The 1990's in general seem to have slightly higher measurement results than the years and decades after that.
+
+##### I made the decision to remove some data from the used dataset during wrangling: the years 1991 and 1992 had so few data points that I didn't see them as valid to be used in the analysis.
+
+##### All in all and despite the spike of 1998, the results are valid and reliable since the data point counts for this chart also were fairly high, between 1000–2000 for each year presented.<br><br>
+
+#### The analysis' goal of producing two descriptive charts was completely satisfied.
