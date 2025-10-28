@@ -16,7 +16,7 @@ R data analyses on [Tidy Tuesday's](https://github.com/rfordatascience/tidytuesd
 
    - `.R` files
 
-     Contains the source R code. The most basic form of an analysis. Can be used as basis for more developed file types, like R [Markdown](https://rmarkdown.rstudio.com/) files. You can try out the code on your own if you have [R](https://www.r-project.org/) and, e.g., [RStudio](https://posit.co/download/rstudio-desktop/) installed.
+     Contains the source R code. The most basic form of an analysis. Can be used as basis for more developed file types, like [R Markdown](https://rmarkdown.rstudio.com/) files. You can try out the code on your own if you have [R](https://www.r-project.org/) and e.g., [RStudio](https://posit.co/download/rstudio-desktop/) installed.
 
    - `.Rmd` files
 
