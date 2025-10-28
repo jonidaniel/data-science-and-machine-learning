@@ -20,7 +20,7 @@
 
 `other-examples/`
 
-- Other data science/machine learning examples (Lonboard, etc.)
+- Other data science/machine learning examples (Lonboard, etc.)<br><br>
 
 `tidy-tuesday-analyses`
 
