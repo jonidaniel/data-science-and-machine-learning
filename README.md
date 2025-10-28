@@ -22,7 +22,7 @@
 
 - Other data science/machine learning examples (Lonboard, etc.)<br><br>
 
-`tidy-tuesday-analyses`
+`tidy-tuesday-analyses/`
 
 - R data analyses on [Tidy Tuesday's](https://github.com/rfordatascience/tidytuesday) weekly data projects with differing datasets.
 
