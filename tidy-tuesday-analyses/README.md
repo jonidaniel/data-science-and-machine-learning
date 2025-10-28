@@ -12,7 +12,7 @@ R data analyses on [Tidy Tuesday's](https://github.com/rfordatascience/tidytuesd
 
 3. Navigate to the project directory with `cd data-science-and-machine-learning/tidy-tuesday-analyses`
 
-4. Every subdirectory name here is in format `YYYY_MM_DD_name_of_analysis`. Each subdirectory is devoted to that week's dataset analysis. Inside each subdirectory, you'll find three kinds of files:
+4. Every subdirectory name here is in format `YYYY_MM_DD_name_of_analysis`. Each subdirectory is devoted to that week's dataset analysis. Inside each of them, you'll find three kinds of files:
 
    - `.R` files
 
