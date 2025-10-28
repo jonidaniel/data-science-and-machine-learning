@@ -22,6 +22,10 @@
 
 - Other data science/machine learning examples (Lonboard, etc.)
 
+`tidy-tuesday-analyses`
+
+- R data analyses on [Tidy Tuesday's](https://github.com/rfordatascience/tidytuesday) weekly data projects with differing datasets.
+
 ## Author
 
 Fall 2025, [@jonidaniel](https://github.com/jonidaniel)
